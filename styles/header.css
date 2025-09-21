@@ -1,0 +1,104 @@
+/* Réinitialisation des marges du body */
+body {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+}
+
+/* Mise en forme du conteneur de la barre de navigation */
+#container-navBar {
+  display: flex;
+  padding: 60px;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 50px;
+  padding-bottom: 5px;
+  justify-content: space-between;
+  align-items: baseline;
+  overflow: hidden;
+}
+
+/* Mise en forme de la barre de navigation */
+#navBar {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Effet de survol pour les liens de la navigation */
+nav a:hover {
+  border-top: whitesmoke solid 0.13em;
+  border-radius: 5px;
+  color: #9D9C9C;
+}
+
+/* Style général des liens de navigation */
+nav a {
+  font-size: 1rem;
+  color: white;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  font-family: "Unbounded";
+  text-decoration: none;
+  padding: 10px;
+  padding-bottom: 0px;
+  padding-top: 1px;
+  border-top: solid rgba(60, 60, 60, 0) 0.13em;
+  border-radius: 15px;
+}
+
+/* Style des liens */
+a {
+  color: #fff;
+  background-color: rgba(60, 60, 60, 0);
+  transition: all 0.5s ease-out;
+}
+
+/* Style au survol ou au focus des liens de navigation */
+nav a:hover,
+nav a:focus {
+  color: #333;
+  background-color: #fff;
+}
+
+/* Mise en forme du conteneur du logo */
+#containerLogo {
+  width: 20%;
+  display: flex;
+  height: auto;
+  justify-content: left;
+}
+
+/* Style du logo */
+#logoHeader {
+  max-height: 100px;
+  transition: transform 3s;
+}
+
+/* Effet de rotation du logo au survol */
+#logoHeader:hover {
+  transform: rotate(360deg);
+  transition-duration: 1s, 1s;
+}
+
+/* Style de l'en-tête */
+header {
+  width: auto;
+}
+
+/* Style du nom de l'école */
+.ecolename {
+  font-family: "Unbounded";
+  margin-bottom: 0px;
+  margin: 0px;
+  width: 100%;
+  color: whitesmoke;
+}
+
+/* Mise en forme du conteneur du nom de l'école */
+#container-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}

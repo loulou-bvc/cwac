@@ -1,0 +1,219 @@
+@media screen and (max-width: 1200px) {
+  
+  #container-formation .div-relou p {
+        width: 95%;
+    }
+  #container-presentation .div-relou p {
+      width: 95%;
+  }
+  #container-contact .media-contact{
+      width: 95%;
+  }
+  header{
+    margin-right: 70px;
+  }
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url("../images/ecole4.png");
+  background-size: cover;
+}
+
+
+aside {
+  border: 2px solid black;
+  margin: 1rem;
+  padding: 1rem;
+  background-image: url("../images/logochatt.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75rem;
+  width: auto;
+
+
+  opacity: 0.30;
+}
+
+footer {
+  background-color: #000;
+  padding: 0.5rem 1.5rem;
+}
+
+footer p {
+  text-align: center;
+  color: white;
+}
+
+#container-all {
+  background-color: rgba(0, 0, 0, 0.6)
+}
+
+main section div p {
+  color: white;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+#video-id {
+  margin: 20px;
+  border: none;
+  width: 700px;
+  height: 500px;
+  border-radius: 25px;
+
+}
+
+#container-presentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 70px;
+}
+
+#container-presentation p {
+  width: 1200px;
+  font-size: 1.4em;
+  line-height: 2;
+}
+#container-contact p{
+  width: 1200px;
+  font-size: 1.4em;
+  line-height: 2;
+  margin: 10px;
+  padding: 10px;
+}
+#container-contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+#container-contact iframe{
+  border-radius: 15px;
+  margin: 120px;
+}
+#container-formation p{
+    width: 1200px;
+    font-size: 1.4em;
+    line-height: 2;
+    margin: 10px;
+    padding: 10px;
+}
+
+#container-formation{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+#container-formation h1{
+  color: whitesmoke;
+  font-size: 1.8em;
+  text-underline-offset: 10px;
+  text-decoration: underline;
+  padding: 4px;
+
+}
+#container-formation div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 70px;
+
+}
+#container-formation h1:hover{
+  color: #636363;
+  font-size: 1.8em;
+  text-underline-offset: 10px;
+  background-color:whitesmoke;
+  text-decoration: none;
+  border-radius: 7px;
+}
+table {
+border: medium solid white;
+border-collapse: collapse;
+width: 100%;
+}
+tr{
+  border: thin solid white;
+}
+th {
+font-family: monospace;
+border: thin solid white;
+padding: 5px;
+  font-size: 1.7em;
+background-color: rgba(0, 0, 0, 10);
+}
+td {
+font-family: sans-serif;
+width: 50%;
+padding: 5px;
+text-align: center;
+}
+#head-table{
+  height: 150px;
+}
+.body-table{
+  height: 250px;
+}
+.body-table td{
+  width: 100px;
+}
+.img-table{
+  border-right: thin solid white;
+  width: 10px;
+}
+table{
+  color: white;
+  font-size: 1.4em;
+  margin: 50px;
+}
+#contact-formulaire{
+  color: white;
+  font-size: 1.8em;
+  text-underline-offset: 10px;
+  text-decoration: none;
+  border-radius: 7px;
+  text-align: center;
+  margin: 70px;
+  
+}
+
+#contact-utilisateur{
+  color: white;
+  font-size: 1.8em;
+  text-underline-offset: 10px;
+  text-decoration: none;
+  border-radius: 7px;
+  text-align: center;
+  margin: 70px;
+}
+
+#contact-formulaire{
+  display: flex;
+  font-size: 1.6em;
+  justify-content: center;
+  align-items: center;
+}
+#contact-formulaire button{
+ margin: 25px;
+}
+#contact-formulaire input{
+ width: 600px;
+  height: 50px;
+  border-radius: 15px;
+}
+
+/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */

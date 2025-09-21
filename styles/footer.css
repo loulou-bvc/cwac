@@ -1,0 +1,81 @@
+/* Styles généraux de la section de pied de page */
+.container-footer {
+  font-size: 1rem;
+  color: white;
+  margin-bottom: 0px;
+  font-family: "Arial";
+  text-decoration: none;
+  padding: 0px;
+  padding-bottom: 0px;
+  padding-top: 1px;
+  border-top: solid rgba(60, 60, 60, 0) 0.13em;
+  background: rgba(60, 60, 60, 0);
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* Style pour la ligne de séparation horizontale dans le footer */
+.container-footer hr {}
+
+/* Style pour une ligne de séparation horizontale plus petite */
+.container-footer hr.small {
+  margin: 20px 0;
+}
+
+/* Style pour les titres h1 dans le footer */
+.container-footer h1 {
+  font-size: 1rem;
+  color: white;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  font-family: "Unbounded";
+  text-decoration: none;
+  padding: 10px;
+  padding-bottom: 0px;
+  padding-top: 1px;
+  border-top: solid rgba(60, 60, 60, 0) 0.13em;
+  text-align: center;
+}
+
+/* Style spécifique pour un titre particulier dans le footer */
+#titre-footer {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+/* Style pour un autre titre particulier dans le footer */
+#titre-footer2 {
+  font-size: 1.2rem;
+  margin-bottom: 2px;
+  font-family: "Unbounded";
+}
+
+/* Style pour les paragraphes dans le footer */
+.paragraphe-footer1 {
+  font-size: 0.8rem;
+  text-decoration: none;
+  text-align: left;
+  margin: 5px;
+}
+
+/* Styles pour différentes sections et éléments dans le footer */
+.colonne2 {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 5px;
+  margin: 7px;
+}
+
+.container2 {
+  display: flex;
+  align-items: flex-end;
+  margin-right: 0px;
+}
+
+.colonne1 {
+  margin-bottom: 30px;
+}

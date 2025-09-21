@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <!-- Méta-données du document -->
+  <meta charset="utf-8"> <!-- Définit l'encodage des caractères -->
+  <title>Accueil</title> <!-- Titre de la page affiché dans l'onglet du navigateur -->
+  <!-- Liaisons vers les feuilles de style CSS -->
+  <link rel="stylesheet" href="styles/header.css" />
+  <link rel="stylesheet" href="styles/footer.css" />
+  <link rel="stylesheet" href="styles/style.css" />
+
+  <!-- Import de polices -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Préconnexion à Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Préconnexion à la source de polices -->
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded&display=swap" rel="stylesheet"> <!-- Import de la police "Unbounded" -->
+
+  <!-- Les balises 'link' définissent les liens vers des ressources externes (feuilles de style, polices, etc.) -->
+</head>
+
+<body>
+  <!-- Conteneur global -->
+  <div id="container-all">
+    <!-- En-tête de la page -->
+    <header>
+      <!-- Conteneur de la barre de navigation -->
+      <div id="container-navBar">
+        <!-- Logo et nom de l'école avec des liens -->
+        <div id="containerLogo">
+          <a href="./accueil.html">
+            <img src="images/logochatt.png" id="logoHeader"> <!-- Logo de l'école -->
+          </a>
+          <div id="container-name">
+            <h1 class="ecolename">LARPOUD</h1> <!-- Nom de l'école - partie 1 -->
+            <h1 class="ecolename">SCHOOL</h1> <!-- Nom de l'école - partie 2 -->
+          </div>
+        </div>
+        <!-- Barre de navigation -->
+        <nav id="navBar">
+          <a class="ici" href="./accueil.html">Accueil</a> <!-- Lien vers la page d'accueil -->
+          <a href="./contact.html">Contact</a> <!-- Lien vers la page de contact -->
+          <a href="./formation.html">Formation</a> <!-- Lien vers la page de formation -->
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Contenu principal -->
+      <section>
+        <div id="container-contact">
+          <!-- Section contact -->
+          <p class="media-contact">Si vous êtes intéressé par notre école, vous pouvez nous retrouver au Sandringham House.</p>
+          <p class="media-contact">Voici notre téléphone si vous avez besoin de plus de précisions : +33 3 57 43 78 85</p>
+          <p class="media-contact">Et notre adresse email : Larpoud.school@gmail.com</p>
+          <p class="media-contact">Retrouvez nous ici à Sandringham House :</p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11803.179621301879!2d0.49942566598702004!3d52.82822625463109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d78c20851f97a7%3A0xcdbc305a50a9fe17!2sSandringham%20House!5e0!3m2!1sfr!2sfr!4v1700644989177!5m2!1sfr!2sfr" width="800" height="450" style="border:1;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="media-contact"></iframe>
+        </div>
+        <!-- Formulaire -->
+        <article id="contact-formulaire" class="media-contact">
+          <form class="form">
+            <h2>REJOIGNEZ-NOUS</h2>
+            <p type="text"><input placeholder="NOM"></input></p>
+            <p type="tel"><input placeholder="TELEPHONE"></input></p>
+            <p type="text"><input placeholder="SUJET DE VOTRE DEMANDE"></input></p>
+            <button>LETS'GO</button>
+            <div>
+              <span class="fa fa-phone"></span>
+              <span class="fa fa-envelope-o"></span> contact@company.com
+            </div>
+          </form>
+        </article>
+      </section>
+    </main>
+
+    <footer class="container-footer">
+      <!-- Pied de page -->
+      <div class="colonne2">
+        <h2 class="paragraphe-footer1">Le Bivic Loup</h2>
+        <h2 class="paragraphe-footer1">Peltier Thomas</h2>
+      </div>
+
+      <div class="colonne1">
+        <h1 id="titre-footer">Larpoud</h1>
+        <p class="texte">Le futur de la magie, c'est chez nous !</p>
+        <p class="texte">Si vous voulez télécharger notre rapport, <a href="images/rapport.docx">le Voici</a></p>
+        <div class="container1-paragraphe-footer">
+          <h1 id="titre-footer2">Groupe 1H</h1>
+        </div>
+      </div>
+
+      <div class="container2">
+        <div class="colonne3">
+          <p class="copyright-text">Copyright &copy; 2023 Tout les droits vont à nous
+            <a href="#">Larpoud</a>.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <!-- Méta-données du document -->
+  <meta charset="utf-8"> <!-- Définit l'encodage des caractères -->
+  <title>Accueil</title> <!-- Titre de la page affiché dans l'onglet du navigateur -->
+  <!-- Liaisons vers les feuilles de style CSS -->
+  <link rel="stylesheet" href="styles/header.css" />
+  <link rel="stylesheet" href="styles/footer.css" />
+  <link rel="stylesheet" href="styles/style.css" />
+
+  <!-- Import de polices -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Préconnexion à Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Préconnexion à la source de polices -->
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded&display=swap" rel="stylesheet"> <!-- Import de la police "Unbounded" -->
+
+  <!-- Les balises 'link' définissent les liens vers des ressources externes (feuilles de style, polices, etc.) -->
+</head>
+
+<body>
+  <!-- Conteneur global -->
+  <div id="container-all">
+    <!-- En-tête de la page -->
+    <header>
+      <!-- Conteneur de la barre de navigation -->
+      <div id="container-navBar">
+        <!-- Logo et nom de l'école avec des liens -->
+        <div id="containerLogo">
+          <a href="./accueil.html">
+            <img src="images/logochatt.png" id="logoHeader"> <!-- Logo de l'école -->
+          </a>
+          <div id="container-name">
+            <h1 class="ecolename">LARPOUD</h1> <!-- Nom de l'école - partie 1 -->
+            <h1 class="ecolename">SCHOOL</h1> <!-- Nom de l'école - partie 2 -->
+          </div>
+        </div>
+        <!-- Barre de navigation -->
+        <nav id="navBar">
+          <a class="ici" href="./accueil.html">Accueil</a> <!-- Lien vers la page d'accueil -->
+          <a href="./contact.html">Contact</a> <!-- Lien vers la page de contact -->
+          <a href="./formation.html">Formation</a> <!-- Lien vers la page de formation -->
+        </nav>
+      </div>
+    </header>
+
+    <!-- Contenu principal -->
+    <main>
+      <section>
+        <!-- Conteneur de la présentation de l'école -->
+        <div id="container-presentation">
+          <!-- Description de l'école -->
+          <p>Nous sommes une école de magie créée en 1991 par Severus Ogre et Minerva Mcgonald, nos chers directeurs. Nous nous situons au Royaume-Uni dans une forêt éloignée. Avec cette localisation, nous
+            pouvons offrir un cadre d’étude adapté aux élèves avec un grand nombre d’ingrédients à proximité dans notre
+            forêt ainsi que nos bonnes relations avec les entreprises.
+          </p>
+          <!-- Vidéo intégrée pour présenter l'école -->
+          <div id="div-video">
+            <iframe id="video-id" src="https://www.youtube.com/embed/M8ApyJqnME0?si=jRDyk-gyzsOYDR_T"></iframe>
+          </div>
+          <!-- Description détaillée de l'école -->
+          <p>Larpoud School est une école novatrice dans son domaine. En effet, nous sommes la première vraie école de
+            sorcellerie. Nous nous démarquons dans ce sujet par nos enseignants hors pairs et notre personnel enseignant
+            toujours à l’écoute de nos élèves. Cela nous place dans les classements en tant que numéro 1 d’école de
+            sorcellerie tel que sur les sites du Figaro Etudiant ou bien L’étudiant.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!-- Pied de page -->
+    <footer class="container-footer">
+      <!-- Divisions pour les éléments du pied de page -->
+      <div class="colonne2">
+        <h2 class="paragraphe-footer1">Le Bivic Loup</h2>
+        <h2 class="paragraphe-footer1">Peltier Thomas</h2>
+      </div>
+      <div class="colonne1">
+        <h1 id="titre-footer">Larpoud</h1>
+        <p class="texte">Le futur de la magie, c'est chez nous !</p>
+        <p class="texte">Si vous voulez télécharger notre rapport, <a href="images/rapport.docx">le Voici</a></p>
+        <div class="container1-paragraphe-footer">
+          <h1 id="titre-footer2">Groupe 1H</h1>
+        </div>
+      </div>
+      <div class="container2">
+        <div class="colonne3">
+          <!-- Copyright du site -->
+          <p class="copyright-text">Copyright &copy; 2023 Tout les droits vont à nous <a href="#">Larpoud</a>.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>

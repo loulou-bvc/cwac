@@ -1,0 +1,167 @@
+    <!DOCTYPE html>
+    <html lang="fr">
+
+    <head>
+      <!-- Méta-données du document -->
+      <meta charset="utf-8"> <!-- Définit l'encodage des caractères -->
+      <title>Accueil</title> <!-- Titre de la page affiché dans l'onglet du navigateur -->
+      <!-- Liaisons vers les feuilles de style CSS -->
+      <link rel="stylesheet" href="styles/header.css" />
+      <link rel="stylesheet" href="styles/footer.css" />
+      <link rel="stylesheet" href="styles/style.css" />
+
+      <!-- Import de polices -->
+      <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Préconnexion à Google Fonts -->
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Préconnexion à la source de polices -->
+      <link href="https://fonts.googleapis.com/css2?family=Unbounded&display=swap" rel="stylesheet"> <!-- Import de la police "Unbounded" -->
+
+      <!-- Les balises 'link' définissent les liens vers des ressources externes (feuilles de style, polices, etc.) -->
+    </head>
+
+    <body>
+      <!-- Conteneur global -->
+      <div id="container-all">
+        <!-- En-tête de la page -->
+        <header>
+          <!-- Conteneur de la barre de navigation -->
+          <div id="container-navBar">
+            <!-- Logo et nom de l'école avec des liens -->
+            <div id="containerLogo">
+              <a href="./accueil.html">
+                <img src="images/logochatt.png" id="logoHeader"> <!-- Logo de l'école -->
+              </a>
+              <div id="container-name">
+                <h1 class="ecolename">LARPOUD</h1> <!-- Nom de l'école - partie 1 -->
+                <h1 class="ecolename">SCHOOL</h1> <!-- Nom de l'école - partie 2 -->
+              </div>
+            </div>
+            <!-- Barre de navigation -->
+            <nav id="navBar">
+              <a class="ici" href="./accueil.html">Accueil</a> <!-- Lien vers la page d'accueil -->
+              <a href="./contact.html">Contact</a> <!-- Lien vers la page de contact -->
+              <a href="./formation.html">Formation</a> <!-- Lien vers la page de formation -->
+            </nav>
+          </div>
+        </header>
+
+    <!-- Contenu principal -->
+    <main>
+      <section>
+        <div id="container-formation">
+
+          <!-- Paragraphe sur le cursus -->
+          <div class="div-relou">
+             <p>Nous attendons des étudiants sérieux et prêts à s’investir dans le travail demandé dans le cursus qui durera 5 années. Les étudiants seront amenés à se spécialiser à partir de la 3 ème année où ils pourront choisir entre le domaine des sorts et le domaine des potions.</p>
+          </div>
+
+          <!-- Divisions pour les partenaires, les élèves et parents, les entreprises -->
+          <div class="div-relou">
+            <h1>Partenaires et sponsors : </h1>
+
+            <p>Nous sommes en recherche perpétuelle de partenaires ou de sponsors pour continuer à évoluer en tant qu'école numéro 1 de sorcellerie. 
+
+                      Notre équipe de quidditch nous offre une renommée nationale, d'autant plus que les compétitions sont à chaque fois remplies ce qui vous offrira une visibilité sans pareil. 
+
+                      De part ces informations, vous serez considérer comme des marques fournissant l'élite et le futur de notre génération de sorcier. De nombreuses portes s'ouvriront donc à vous afin que vous puissiez vous même vous développer. 
+
+                      Nous avons également besoin de nouveaux fournisseurs afin de continuer notre perpétuelle évolution, vos marques seront alors utilisé par nos élèves chaque jour qui pourront effectuer ces mêmes achats à la fin de leur cursus pour continuer leur travail.  </p>
+          </div>
+
+          <div class="div-relou">
+            <h1>Les élèves et parents d'élèves : </h1>
+            <p>Chers parents, chers élèves, votre sécurité et votre bien être sont notre priorité. 
+
+              C'est pourquoi notre école vous propose de nombreuses associations ainsi que la possibilité de créer celles que vous souhaitez. Nous procédons de cette manière pour garantir que vous soyez entourer et puissiez épanouir votre passion avec d'autres étudiants. 
+
+              Au contraire, si vous cherchez un endroit calme et reposé pour travailler, nous avons des salles de révisions mises à disposition pour chaque élève. Il suffira seulement de télécharger notre application SalleLarpoud afin de réserver une salle dès que vous le souhaitez. 
+
+              Larpoud propose également un suivi personnalisé pour chaque élève en cas de problèmes divers tel que des handicaps, des notes ou même une mauvaise ambiance dans votre classe. Notre personnel est à l'écoute et pourra vous mettre en relation avec nos experts si vous en avez besoin. </p>
+          </div>
+
+          <div class="div-relou">
+            <h1>Les entreprises : </h1>
+            <p>Chers entreprises, nous souhaitons collaborer avec vous afin de vous proposer des étudiants formés et qui conviennent à vos attentes. 
+
+              Nous proposons un enseignement de qualité, et est reconnu en tant que tel puisque nous détenons la première place d'école de sorcellerie sur les sites du Figaro et de l'Etudiant. Nos étudiants sont également déjà formé à la vie en entreprise de part les nombreux stages qui sont demandés au sein de la formation. 
+
+              D'autant plus que nos nombreuses relations avec les entreprises déjà existantes nous permettent de mettre en relation les élèves avec des grandes firmes qui ont pour habitude d'avoir des stagiaires dans l'enceinte de leur entreprise. 
+
+              Par ailleurs, si vous souhaitez recruter directement des stagiaires pour que vous trouviez les meilleurs éléments de notre école et leur offrir une proposition d'embauche avant la fin de leur cursus. Cela est bien évidemment possible, nous vous mettrons en relation avec nos spécialistes de l'établissement pour que l'opération ne se déroule sans emcombre. </p>
+          </div>
+
+          <!-- Tableau pour la répartition des cours -->
+          <div>
+            <table id = "table-formation">
+              <h1>Répartition des cours</h1>
+              <thead>
+                <tr id="head-table">
+                  <th colspan=>Filières</th>
+                  <th colspan="5">Cours</th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- Lignes pour les filières Potion et Sort -->
+                <tr class="body-table">
+                  <td class="img-table"><img src="images/potion.jpg" width="120px"> <h3> Potion</h3> </td>
+                      <!-- Cours pour la filière Potion -->
+
+                      <td>Soins créatures magiques : 6 H </td>
+                      <td>Potions avancées : 12 H </td>
+                      <td>Sortilèges basiques : 4 H </td>
+                      <td>Vol : 4 H </td>   
+                      <td>Métamorphose : 4 H </td>
+
+                </tr>
+                <tr class="body-table">
+                    <td class="img-table"><img src="images/sort.jpg" width="120"><h3>  Sort</h3>  </td>
+                    <!-- Cours pour la filière Sort -->
+
+                  
+                    <td>Soins créatures magiques : 6 H </td>
+                    <td>Potions avancées : 12 H </td>
+                    <td>Sortilèges basiques : 4 H </td>
+                    <td>Vol : 4 H </td>   
+                    <td>Métamorphose : 4 H </td>
+                </tr>
+              </tbody>
+              <tfoot>
+
+              </tfoot>
+            </table>
+            </div>
+
+
+          <!-- Informations supplémentaires -->
+          <p>Larpoud School permet une réelle diversité de manière d’apprentissage. Chez nous, vous pourrez retrouver de nombreuses matières avec des professeurs reconnus dans le monde de la magie...</p>
+          <p>Notez bien que pour accéder à notre cursus, il est nécessaire d’être âgé de plus de 11 ans.</p>
+        </div>
+      </section>
+    </main>
+
+    <!-- Pied de page -->
+    <footer class="container-footer">
+      <!-- Divisions pour les informations de contact -->
+      <div class="colonne2">
+        <h2 class="paragraphe-footer1">Le Bivic Loup</h2>
+        <h2 class="paragraphe-footer1">Peltier Thomas</h2>
+      </div>
+      <div class="colonne1">
+        <h1 id="titre-footer">Larpoud</h1>
+        <p class="texte">Le futur de la magie, c'est chez nous !</p>
+        <p class="texte">Si vous voulez télécharger notre rapport, <a href="images/rapport.docx">le Voici</a></p>
+        <div class="container1-paragraphe-footer">
+          <h1 id="titre-footer2">Groupe 1H</h1>
+        </div>
+      </div>
+      <div class="container2">
+        <div class="colonne3">
+          <p class="copyright-text">Copyright &copy; 2023 Tout les droits vont à nous
+            <a href="#">Larpoud</a>.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
